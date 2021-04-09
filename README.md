@@ -140,7 +140,7 @@ For more instructions (including OS X) check out https://gist.github.com/wolfv/f
 
 Make sure you install mamba's requirements in your conda environment:
 
-`mamba env update --name <conda_env> --file environment-dev.yml`
+`mamba install --file requirements.txt -c conda-forge`
 
 If you build mamba in a different environment than base, you must also install conda in
 that environment:

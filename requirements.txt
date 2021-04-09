@@ -1,0 +1,15 @@
+cmake
+make
+ninja
+nlohmann_json
+pybind11
+libsolv >=0.7.18
+libarchive
+libcurl
+cxx-compiler
+gtest
+cpp-filesystem
+reproc-cpp
+yaml-cpp
+cli11
+pytest
