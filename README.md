@@ -148,7 +148,8 @@ that environment:
 `mamba install conda -c conda-forge`
 
 For a local (dev) build, run `pip install -e .`. This will build and install mamba
-in the conda environment.
+in the conda environment. Depending on your installation, you might need to run `conda
+init fish` to avoid linking errors during the compilation.
 
 #### cmake based build
 
